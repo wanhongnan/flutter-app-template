@@ -20,19 +20,19 @@ dependencies:
   flutter:
     sdk: flutter
     
-  dio: ^3.0.3
-  sqflite: ^1.1.0
-  cupertino_icons: ^0.1.2
-  json_annotation: ^2.4.0
+  dio: ">=3.0.3 <6.0.0"
+  sqflite: ">=1.1.0 <3.0.0"
+  cupertino_icons: ">=0.1.2 <2.0.0"
+  json_annotation: ">=2.4.0 <5.0.0"
   reflectable: any  
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  json2entity: 1.0.6
+  json2entity: ^1.0.6
   build_runner: ^1.0.0
-  json_serializable: ^3.0.0
+  json_serializable: ">=3.0.0 <5.0.0"
   
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
